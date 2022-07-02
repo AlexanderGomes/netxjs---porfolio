@@ -17,6 +17,15 @@ export const projects = [
     visit: 'https://my-store-seven.vercel.app/',
     id: 1,
   },
+  {
+    title: 'Mini social media',
+    description:"jwt authentication, post your thougths and see what other people have been thinking as well, you can see all the users that have been registered on this application, no one can see that your post belongs to you, so say what you always wanted to but couldn't ",
+    image: '/images/social.png',
+    tags: ['React', 'Nodejs', 'Mongodb', 'Express'],
+    source: 'https://github.com/AlexanderGomes/login',
+    visit: 'https://anonnymous.herokuapp.com/',
+    id: 2,
+  },
 ];
 
 export const TimeLineData = [
