@@ -26,12 +26,21 @@ export const projects = [
     visit: 'https://anonnymous.herokuapp.com/',
     id: 2,
   },
+  {
+    title: 'Delivery App',
+    description:"Demo of a delivery App, add to cart pay with paypal or when the driver arrives to your house",
+    image: '/images/delivery.png',
+    tags: ['React', 'nextjs', 'Mongodb', 'cloudinary'],
+    source: 'https://github.com/AlexanderGomes/delivery__app',
+    visit: 'https://delivery-app-chi.vercel.app/',
+    id: 3,
+  },
 ];
 
 export const TimeLineData = [
-  { year: 2021, text: 'Dec, 18 I started my journey', },
-  { year: 2022, text: 'March, 27 I finally was confident enougth to build full stack applications', },
-  { year: 2022, text: 'April, 12 I got my first freelance job, a dropshipping store', },
-  { year: 2022, text: 'May, 2 I had 8 projects done for local bussiness, very challenging and different kinds of projects  than what I was used with', },
-  { year: 2022, text: 'june, 17 working on how to build social media applications, and improve algorithms to be more accurate to each one of the users', },
+  // { year: 2021, text: 'Dec, 18 I started my journey', },
+  // { year: 2022, text: 'March, 27 I finally was confident enough to build full stack applications', },
+  // { year: 2022, text: 'April, 12 I got my first freelance job, a dropshipping store', },
+  // { year: 2022, text: 'May, 2 I had 8 projects done for local bussiness, very challenging and different kinds of projects  than what I was used with', },
+  // { year: 2022, text: 'june, 17 working on how to build social media applications, and improve algorithms to be more accurate to each one of the users', },
 ];
