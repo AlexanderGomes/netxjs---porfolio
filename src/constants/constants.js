@@ -28,7 +28,7 @@ export const projects = [
   },
   {
     title: 'Delivery App',
-    description:"Demo of a delivery App, add to cart pay with paypal or when the driver arrives to your house",
+    description:"Demo of a delivery App, add to cart pay with paypal or when the driver arrives to your house, after that you will be redirected to the order page where you can see the status of your order, the owner had a Admin page where he sees every order, and change the status of the order, I'd say that my main challenge was to put everything together I was having problems fetching the data, getting the user from one page to another, but mainly for lack of attention.",
     image: '/images/delivery.png',
     tags: ['React', 'nextjs', 'Mongodb', 'cloudinary'],
     source: 'https://github.com/AlexanderGomes/delivery__app',
