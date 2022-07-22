@@ -13,7 +13,7 @@ const Hero = (props) => (
         My Personal Portfolio
       </SectionTitle>
       <SectionText>
-       I'm a Full-stack developer, always keeping myself updated and improving my skills, bring your idea to life, contact me !  
+       I'm a Full-stack developer, always keeping myself updated and improving my skills, bring your idea to life, contact me.  
       </SectionText>
       <a href='tel:510-630-5188'>
       <Button onClick={props.handleClick}>Contact me</Button>
