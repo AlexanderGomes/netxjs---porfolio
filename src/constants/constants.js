@@ -35,15 +35,6 @@ export const projects = [
     visit: 'https://anonnymous.herokuapp.com/',
     id: 3,
   },
-  {
-    title: 'MVP Social media',
-    description:"I was working on the functions that goes to every social media, the timeline, friend suggestions, posting pictures, sentences or both, liking and commenting posts, there was zero focus on the design of this application, I just wanted to build a backend and be able to malipulate it on the frontend.",
-    image: '/images/mvp.png',
-    tags: ['React', 'express', 'Mongodb', 'cloudinary', 'Node.js'],
-    source: 'https://github.com/AlexanderGomes/clone__social__media',
-    visit: 'https://a2g-social-media.herokuapp.com/',
-    id: 4,
-  }
 ];
 
 export const TimeLineData = [
