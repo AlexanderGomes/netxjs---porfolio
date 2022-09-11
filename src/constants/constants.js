@@ -1,12 +1,21 @@
 export const projects = [
   {
+    title: 'Blog',
+    description:"I'd say that my biggest challenge was to learn how to query sanity data, for some reason I was not understanding the documentation, but after I understood I displayed the data in topics such as Node.js, Mern etc. The post page is where you can search for any post. That's a very simple application but I had a lot of fun with it. ",
+    image: '/images/school.png',
+    tags: ['React', 'Sanity'],
+    source: 'https://github.com/AlexanderGomes/tech-info-start',
+    visit: 'https://tech-info-start.vercel.app/',
+    id: 0,
+  },
+  {
     title: 'Delivery App',
     description:"Demo of a delivery App, pay with paypal or when the driver arrives to your house, after that you will be redirected to the order's page where you can see the status of your order, the owner have a Admin page where he sees every order, and change the status of the order, I'd say that my main challenge was to put everything together I was having problems fetching the data, getting the user from one page to another, but mainly for lack of attention.",
     image: '/images/delivery.png',
     tags: ['React', 'nextjs', 'Mongodb', 'cloudinary'],
     source: 'https://github.com/AlexanderGomes/delivery__app',
     visit: 'https://delivery-app-chi.vercel.app/',
-    id: 0,
+    id: 1,
   },
   {
     title: 'Real Estate',
@@ -15,7 +24,7 @@ export const projects = [
       tags: [ 'React', 'javascript'],
     source: 'https://github.com/AlexanderGomes/real__state',
     visit: 'https://real-state-d8uxhyjfr-alexandergomes.vercel.app/',
-    id: 1,
+    id: 2,
   },
   {
     title: 'E-Commerce',
@@ -24,7 +33,7 @@ export const projects = [
     tags: ['React', 'JavaScript', 'Stripe', 'Sanity'],
     source: 'https://github.com/AlexanderGomes/my__store',
     visit: 'https://my-store-seven.vercel.app/',
-    id: 2,
+    id: 3,
   },
 ];
 
