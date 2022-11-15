@@ -1,12 +1,21 @@
 export const projects = [
   {
+    title: 'Social Media',
+    description:"I learned a lot about how to properly manage big amounts of state for the first time, and how lack of organization at the beginning will come back to bite you later, clean and very organized code is something I’ll take with me forever now, I wanted to implement a better notification system, chat message and other features but my lack of organization made it too hard, so I decided to finish it as a ‘beginner-medium’ project.  App features: — post images with text or only text, — like posts, comments, and replies, — notification for every liked/disliked post, comment, and reply, — suggestion card, showing people you may want to follow, — profile page, with your posts and saved posts, — visit other people’s profiles to see their posts, who they follow, and their followers. ",
+    image: '/images/social2.png',
+    tags: ['MERN', 'Cloudinary'],
+    source: 'https://github.com/AlexanderGomes/instagram',
+    visit: 'https://socialmediaa2g.herokuapp.com/',
+    id: 0,
+  },
+  {
     title: 'Blog',
     description:"I'd say that my biggest challenge was to learn how to query sanity data, for some reason I was not understanding the documentation, but after I understood I displayed the data in topics such as Node.js, Mern etc. The post page is where you can search for any post. That's a very simple application but I had a lot of fun with it. ",
     image: '/images/school.png',
     tags: ['React', 'Sanity'],
     source: 'https://github.com/AlexanderGomes/tech-info-start',
     visit: 'https://tech-info-start.vercel.app/',
-    id: 0,
+    id: 1,
   },
   {
     title: 'Delivery App',
@@ -15,7 +24,7 @@ export const projects = [
     tags: ['React', 'nextjs', 'Mongodb', 'cloudinary'],
     source: 'https://github.com/AlexanderGomes/delivery__app',
     visit: 'https://delivery-app-chi.vercel.app/',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Real Estate',
@@ -24,7 +33,7 @@ export const projects = [
       tags: [ 'React', 'javascript'],
     source: 'https://github.com/AlexanderGomes/real__state',
     visit: 'https://real-state-d8uxhyjfr-alexandergomes.vercel.app/',
-    id: 2,
+    id: 3,
   },
   {
     title: 'E-Commerce',
@@ -33,7 +42,7 @@ export const projects = [
     tags: ['React', 'JavaScript', 'Stripe', 'Sanity'],
     source: 'https://github.com/AlexanderGomes/my__store',
     visit: 'https://my-store-seven.vercel.app/',
-    id: 3,
+    id: 4,
   },
 ];
 
